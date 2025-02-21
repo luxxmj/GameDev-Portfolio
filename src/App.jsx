@@ -5,11 +5,16 @@ import Plugins from "./Pages/Projects/Plugins.jsx";
 import Creations from "./Pages/Projects/Creations.jsx";
 import Commissions from "./Pages/Projects/Commissions.jsx";
 import ErrorPage from "./Pages/ErrorPage.jsx";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 const App = () => {
   return (
-    <div className="bg-slate-800">
 
+    <div className="bg-slate-800">
+      <Analytics />
+      <SpeedInsights />
       <BrowserRouter>
         <Routes>
           <Route index element={<Index />} />

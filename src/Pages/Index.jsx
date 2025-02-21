@@ -9,11 +9,11 @@ import "react-vertical-timeline-component/style.min.css"
 
 const Index = () => {
   return (
-    <div>
-      <div className="sticky left-0 top-0 w-full z-10 bg-slate-950">
+    <div className="h-screen">
+      <div className="fixed left-0 top-0 w-full z-10 bg-slate-950">
         <NavBar />
       </div>
-      <Parallax pages={5} className="bg-[url(https://w.wallhaven.cc/full/nm/wallhaven-nm9omy.jpg)]">
+      <Parallax pages={5} className="h-full bg-[url(https://w.wallhaven.cc/full/nm/wallhaven-nm9omy.jpg)]">
         <ParallaxLayer offset={0} factor={1} speed={.35}>
           <Games />
         </ParallaxLayer>
