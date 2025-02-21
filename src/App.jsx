@@ -4,7 +4,7 @@ import SBMania from "./Pages/Games/SBMania.jsx";
 import Plugins from "./Pages/Projects/Plugins.jsx";
 import Creations from "./Pages/Projects/Creations.jsx";
 import Commissions from "./Pages/Projects/Commissions.jsx";
-import ErrorPage from "./Pages/errorPage.jsx";
+import ErrorPage from "./Pages/ErrorPage.jsx";
 
 const App = () => {
   return (
