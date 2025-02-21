@@ -6,7 +6,7 @@ import Creations from "./Pages/Projects/Creations.jsx";
 import Commissions from "./Pages/Projects/Commissions.jsx";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const App = () => {
