@@ -9,6 +9,8 @@ import Stats from '../assets/Stats.png';
 import tvSystemImg from '../assets/tvSystemImg.jpg';
 import npcContestImg from '../assets/npcContestImg.png';
 import FLSMobile from '../assets/FLSMobile.jpg';
+import SBMTrello from '../assets/sbmaniatrello.png';
+import SSTrello from '../assets/sstrello.png';
 
 import blinkDash from '../assets/Icons/SBMania/dashPackAnims/blinkDashPack.gif'
 import defaultDash from '../assets/Icons/SBMania/dashPackAnims/defaultDashPack.gif'
@@ -99,7 +101,7 @@ export const CREATIONS = [
   },
   {
     name: "SBMania Trello",
-    image: 'https://media.discordapp.net/attachments/765838759110377494/1342063327206969384/image.png?ex=67b8455f&is=67b6f3df&hm=d465f0f024ea1a6d0088fd8444f65ef9d9f54d98a7ad7938746ca3530e1a7960&=&format=webp&quality=lossless&width=1440&height=627',
+    image: SBMTrello,
     media: '',
     desc: 'https://trello.com/b/wXWfRh7g/snowball-mania'
   }
@@ -114,7 +116,7 @@ export const COMMISSIONS = [
   },
   {
     name: "SStorm Trello",
-    image: 'https://media.discordapp.net/attachments/765838759110377494/1342064004188606514/image.png?ex=67b84600&is=67b6f480&hm=44379cbb075a4cfd4a6d55a7be0eaa1c64b308846a20a22aae4b6ac4c7983773&=&format=webp&quality=lossless&width=1440&height=637',
+    image: SSTrello,
     media: '',
     desc: 'https://trello.com/b/sPAqwEgs/old-official-shinobi-storm-trello'
   }
