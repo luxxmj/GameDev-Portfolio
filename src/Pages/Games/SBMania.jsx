@@ -171,7 +171,7 @@ const SBMania = () => {
                                 </div>
                         </a>
 
-                        <div className='relative flex justify-center items-center'>
+                        <div className='relative flex justify-center items-center top-[50%] -translate-y-[50%] size-[35%]'>
                                 <svg viewBox="0 0 100 100" className="size-[100%] relative">
                                         <circle
                                                 cx="50"

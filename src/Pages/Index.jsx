@@ -14,10 +14,10 @@ const Index = () => {
         <NavBar />
       </div>
       <Parallax pages={5} className="h-full bg-[url(https://w.wallhaven.cc/full/nm/wallhaven-nm9omy.jpg)]">
-        <ParallaxLayer offset={0} factor={1} speed={.35}>
+        <ParallaxLayer offset={.15} factor={1} speed={.35}>
           <Games />
         </ParallaxLayer>
-        <ParallaxLayer offset={1} factor={1} speed={.35}>
+        <ParallaxLayer offset={1.15} factor={1} speed={.35}>
           <Projects />
         </ParallaxLayer>
         <ParallaxLayer offset={2} factor={2} speed={.8}>
